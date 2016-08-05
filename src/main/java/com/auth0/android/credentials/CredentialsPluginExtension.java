@@ -4,15 +4,13 @@ import org.gradle.api.tasks.Input;
 
 public class CredentialsPluginExtension {
 
-    public CredentialsPluginExtension(String clientId, String domain) {
-        this.clientId = clientId;
-        this.domain = domain;
-    }
-
     @Input
      String clientId;
     @Input
     String domain;
+
+    public CredentialsPluginExtension() {
+    }
 
     public String getClientId() {
         return clientId;

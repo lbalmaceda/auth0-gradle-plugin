@@ -12,7 +12,7 @@ public class CredentialsPluginExtensionTest {
 
     @Before
     public void setUp() throws Exception {
-        extension = new CredentialsPluginExtension("other-client", "other-domain");
+        extension = new CredentialsPluginExtension();
     }
 
     @Test

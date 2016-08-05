@@ -1,8 +1,8 @@
-group = 'com.auth0.android'
-version = '1.0.0-SNAPSHOT'
-
 apply plugin: 'java'
 apply plugin: 'maven'
+
+group = 'com.auth0.android'
+version = '1.0.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
@@ -12,6 +12,6 @@ dependencies {
 }
 
 repositories {
-    mavenCentral()
     mavenLocal()
+    mavenCentral()
 }
