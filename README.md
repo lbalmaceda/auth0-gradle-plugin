@@ -37,3 +37,11 @@ auth0Credentials {
 3) Run the plugin
 
 `./gradlew clean generateAuth0Credentials`
+
+
+#### Some Links
+
+https://docs.gradle.org/current/userguide/custom_plugins.html
+https://docs.google.com/presentation/d/1llWSoa8KepAnYGFDE0HA4FtNmSdnVVHp7HPkQ5Ah94k
+http://crazyadmins.com/writing-custom-gradle-plugin-using-java/
+http://www.crashlytics.com/blog/defining-custom-pre-and-post-processing-tasks-in-gradle
